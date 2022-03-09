@@ -1,0 +1,29 @@
+.view-news {
+  padding: 50px;
+
+  .news-item {
+    padding: 30px;
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    //   justify-content: space-between;
+
+    &__title {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    &__header {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    &__body {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}

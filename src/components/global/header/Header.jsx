@@ -9,10 +9,13 @@ function Header() {
       <div className="container">
         <div className="header-inner">
           <div className="logo">
-            <Link to="/news">TechNews</Link>
+            <Link to="/view-news">TechNews</Link>
           </div>
           <div className="menu">
-            <Link to="add-News">Добавить новость</Link>
+            <Link to="/create-News">Добавить новость</Link>
+          </div>
+          <div className="menu">
+            <Link to="/edit-News">Edit news</Link>
           </div>
           <div className="user">
             <Link to="/account">
